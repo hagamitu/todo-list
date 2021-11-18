@@ -131,7 +131,8 @@
               "browserTarget": "todo-app:build:production"
             },
             "development": {
-              "browserTarget": "todo-app:build:development"
+              "browserTarget": "todo-app:build:development",
+              "port": 4800
             }
           },
           "defaultConfiguration": "development",
@@ -174,6 +175,7 @@
           "builder": "@nrwl/cypress:cypress",
           "options": {
             "cypressConfig": "apps/todo-app-e2e/cypress.json",
+            "headed": true,
             "devServerTarget": "todo-app:serve:development"
           },
           "configurations": {

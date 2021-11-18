@@ -4,8 +4,9 @@
   "integrationFolder": "./src/integration",
   "modifyObstructiveCode": false,
   "supportFile": "./src/support/index.ts",
+  "baseUrl": "http://localhost:4800",
   "pluginsFile": false,
-  "video": true,
+  "video": false,
   "videosFolder": "../../dist/cypress/apps/todo-app-e2e/videos",
   "screenshotsFolder": "../../dist/cypress/apps/todo-app-e2e/screenshots",
   "chromeWebSecurity": false
